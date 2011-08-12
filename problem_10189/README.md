@@ -24,7 +24,7 @@ field contains two integers n and m (0 < n,m ≤ 100) which stand for the number
 of lines and columns of the field, respectively. Each of the next n lines
 contains exactly m characters, representing the field.
 
-Safe squares are denoted by “.” and mine squares by “*,” both without the
+Safe squares are denoted by “.” and mine squares by “*”, both without the
 quotes. The first field line where n = m = 0 represents the end of input and
 should not be processed.
 
