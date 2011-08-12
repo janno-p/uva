@@ -23,8 +23,11 @@ int main()
 	int a, b;
 	while (cin >> a >> b)
 	{
+		int first = std::min(a, b);
+		int last = std::max(a, b);
+		
 		int max = 0;
-		for (int i = a; i <= b; i++)
+		for (int i = first; i <= last; i++)
 		{
 			int current = cycle_length(i);
 			max = std::max(current, max);
