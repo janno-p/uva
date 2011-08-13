@@ -2,6 +2,8 @@
  * The 3n + 1 Problem
  */
 
+#if !defined(NOT_JUDGING) or PROBLEM == 100
+
 #include <iostream>
 #include <cmath>
 
@@ -25,7 +27,7 @@ int main()
   {
     int first = std::min(a, b);
     int last = std::max(a, b);
-    
+
     int max = 0;
     for (int i = first; i <= last; i++)
     {
@@ -34,6 +36,8 @@ int main()
     }
     cout << a << " " << b << " " << max << endl;
   }
-  
+
   return 0;
 }
+
+#endif
