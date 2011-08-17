@@ -1,7 +1,3 @@
-/**
- * The 3n + 1 Problem
- */
-
 #if !defined(NOT_JUDGING) or PROBLEM == 100
 
 #include <iostream>
