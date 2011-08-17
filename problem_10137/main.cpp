@@ -54,9 +54,9 @@ int main()
     print_sum(max(sum_less, sum_more));
 
     delete [] amounts;
-	}
+  }
 
-	return 0;
+  return 0;
 }
 
 #endif
