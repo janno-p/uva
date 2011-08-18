@@ -20,7 +20,7 @@ Output
 ------
 
 Print the numbers specified in the input file in an LCD display-style using s
-“-” signs for the horizontal segments and s “|” signs for the vertical ones.
+"-" signs for the horizontal segments and s "|" signs for the vertical ones.
 Each digit occupies exactly s + 2 columns and 2s + 3 rows. Be sure to fill all
 the white space occupied by the digits with blanks, including the last digit.
 There must be exactly one column of blanks between two digits.
