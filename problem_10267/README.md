@@ -58,7 +58,7 @@ The editor deals with the following commands:
       (X,Y) and a common side with any pixel which belongs to this region.</td>
   </tr>
   <tr>
-    <td>S Name<td>
+    <td>S Name</td>
     <td>Writes the picture in the file Name.</td>
   </tr>
   <tr>
