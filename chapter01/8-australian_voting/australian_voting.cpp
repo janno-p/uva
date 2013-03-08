@@ -11,6 +11,8 @@ int main()
 
     for (int case_num = 0; case_num < num_cases; case_num++)
         check_results();
+
+    return 0;
 }
 
 void check_results()
