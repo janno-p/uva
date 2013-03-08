@@ -1,5 +1,4 @@
-Interpreter
-===========
+# Interpreter (10033) #
 
 A certain computer has 10 registers and 1000 words of RAM. Each register
 or RAM location holds a 3-digit integer between 0 and 999. Instructions
@@ -23,8 +22,8 @@ All registers initially contain 000. The initial content of the RAM is
 read from standard input. The first instruction to be executed is at RAM
 address 0. All results are reduced modulo 1000.
 
-Input
------
+
+## Input ##
 
 The input begins with a single positive integer on a line by itself
 indicating the number of the cases following, each of them as described
@@ -35,8 +34,8 @@ The input to your program consists of up to 1000 3-digit unsigned
 integers, representing the contents of consecutive RAM locations
 starting at 0. Unspecified RAM locations are initialized to 000.
 
-Output
-------
+
+## Output ##
 
 For each test case, the output must follow the description below. The
 outputs of two consecutive cases will be separated by a blank line.
@@ -45,8 +44,8 @@ The output from your program is a single integer: the number of
 instructions executed up to and including the halt instruction. You may
 assume that the program does halt.
 
-Sample Input
-------------
+
+## Sample Input ##
 
     1
     
@@ -66,7 +65,7 @@ Sample Input
     000
     000
 
-Sample Output
--------------
+
+## Sample Output ##
 
     16

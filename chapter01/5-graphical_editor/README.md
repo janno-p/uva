@@ -1,5 +1,4 @@
-Graphical Editor
-================
+# Graphical Editor (10267) #
 
 The simple graphical editor deals with a rectangular table M×N (1<=M,N<=250).
 Each pixel of the table has its colour. The picture is formed from this square
@@ -8,8 +7,8 @@ pixels.
 The problem is to write a program, which simulates an interactive work of the
 graphical editor.
 
-Input
------
+
+## Input ##
 
 Input consists of the editor commands, one per line. Each command is represented
 by one Latin capital placed in the very beginning of the line. If the command
@@ -67,23 +66,23 @@ The editor deals with the following commands:
   </tr>
 </table>
 
-Output
-------
+
+## Output ##
 
 Every time the command S NAME meets, you should output the file name NAME and
 the current table, row by row. Each row is represented by a pixels' colours
 series, see the output sample.
 
-Errors
-------
+
+## Errors ##
 
 If as a command there will be a character different from I, C, L, V, H, K, F, S,
 X, the editor should ignore the whole line and pass to the next command.
 
 In case of other errors the program behaviour is unpredictable.
 
-Sample Input
-------------
+
+## Sample Input ##
 
     I 5 6
     L 2 3 A
@@ -95,8 +94,8 @@ Sample Input
     S two.bmp
     X
 
-Sample Output
--------------
+
+## Sample Output ##
 
     one.bmp
     OOOOO
